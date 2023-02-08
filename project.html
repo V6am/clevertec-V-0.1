@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Пример №2</title>
+
+    <!-- Для оформления используем стили, а не атрибуты -->
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Деление на секции с выделением разным фоном
+      </caption>
+
+      <thead style="background-color: yellow">
+        <tr>
+          <th>Я &ndash; первая заглавная ячейка</th>
+          <th>А я &ndash; вторая заглавная ячейка</th>
+        </tr>
+      </thead>
+
+      <tbody style="background-color: green">
+        <tr>
+          <td>Я &ndash; первая ячейка в первой строке тела</td>
+          <td>Я &ndash; вторая ячейка в первой строке тела</td>
+        </tr>
+        <tr>
+          <td>Я &ndash; первая ячейка во второй строке тела</td>
+          <td>Я &ndash; вторая ячейка во второй строке тела</td>
+        </tr>
+      </tbody>
+
+      <tfoot style="background-color: grey">
+        <tr>
+          <td>Итог:</td>
+      </tfoot>
+      <tfoot>
+          <td>использовано три фона</td>
+          <h1>Привет
+            
+          </h1>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
